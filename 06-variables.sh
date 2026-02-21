@@ -11,3 +11,5 @@ END_TIME=$(date +%s)
 TOTAL_TIME=$(($END_TIME-$START_TIME))
 
 echo "Scripted executed time: $TOTAL_TIME)"
+
+echo "All args passed to script: $*"
